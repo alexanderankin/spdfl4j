@@ -1,0 +1,4 @@
+rootProject.name = 'spdfl4j'
+includeBuild './includeBuild'
+include 'pdf4j-core'
+include 'pdf4j-pdftk'
