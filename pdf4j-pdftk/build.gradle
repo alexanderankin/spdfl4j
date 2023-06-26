@@ -9,6 +9,8 @@ application {
 }
 
 dependencies {
+    annotationProcessor 'info.picocli:picocli-codegen:4.7.4'
+
     implementation project(':pdf4j-core')
     implementation 'info.picocli:picocli:4.7.4'
 }
