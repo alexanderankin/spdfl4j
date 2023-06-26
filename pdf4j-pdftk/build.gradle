@@ -1,5 +1,11 @@
 plugins {
-    id 'conventions'
+    id 'cli-conventions'
+}
+
+version '0.0.1'
+
+application {
+    mainClass.set 'info.ankin.pdf4j.pdftk.cli.Main'
 }
 
 dependencies {
